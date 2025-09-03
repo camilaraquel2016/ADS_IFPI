@@ -1,0 +1,22 @@
+2. De forma breve, conceitue atributos e métodos. Pesquise e exemplifique um
+objetos ou classes que possuam atributos e métodos. Por exemplo um Carro:
+• Carro
+• Atributos: cor, marca, ano
+• Métodos: acelerar(), frear()
+
+Resposta: Os atributos são as características de um objeto, ou seja, informações
+básicas e importantes para caracterizar um objeto em um determinado contexto.
+Métodos são os comportamentos, ou ainda mais simples, são funções que o objeto pode fazer
+ou sofrer.
+
+Exemplo: Classe Livro
+
+Em um sistema de uma biblioteca, é importante armazenar dados de um livro
+e dados importantes de um livro para esse contexto seria: título, autor, status e também seu id.
+Esses então seriam os atributos de um objeto criado a partir dessa classe.
+
+Além dos atributos, devem ter os métodos que para esse cenário seria: emprestar, devolver e exibir informações.
+
+Ao emprestar ou devolver, o atributo status do livro teria seu valor modificado.
+Ao exibir informações nenhum atributo iria ser afetado, apenas exibido.
+
