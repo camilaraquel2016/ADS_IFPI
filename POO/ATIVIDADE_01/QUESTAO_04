@@ -1,0 +1,24 @@
+4. Considerando os objetos Pessoa e Conta:
+a. Seria interessante em um sistema bancário um objeto "conta" possuir uma
+"pessoa" como um atributo interno representando o titular da conta?
+b. Olhando no sentido inverso, seria interessante uma pessoa possuir mais de
+uma conta como atributo? Que elemento da programação estruturada melhor
+representaria o conjunto de contas de uma pessoa?
+
+Resposta:
+
+a) Sim, pois em um sistema bancário além das informações como: número da conta, 
+saldo, tipo de conta, é importante também vincular a conta à um titular que nesse contexto
+pode ser um objeto Pessoa e com isso poder acessar informações relevantes desse titular 
+se necessário como (CPF, nome, endereço). 
+Além disso, quando ligamos conta ao objeto Pessoa estamos deixando esse sistema organizado, 
+pois a conta armazena apenas as informações relevantes a ela assim como Pessoa também guarda
+apenas o necessário e caso seja importante consultar informações de uma pessoa a partir
+de uma conta, essa operação será possível atráves da ligação do atributo titular com o objeto
+Pessoa e isso sendo feito de maneira organizada e matendo a abstração (armazenar só o necessário)
+e a modularidade.
+
+b) Sim, em um contexto de sistema bancário, ao criar um objeto Pessoa, é importante saber 
+quais as contas que aquela pessoa está vinculada.
+Para melhor organização, esse atributo pode ser representado com o elemento lista (vetor), 
+pois permite armanezar vários elementos que nesse caso seriam os objeto do tipo Conta.
