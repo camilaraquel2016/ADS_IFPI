@@ -1,1 +1,37 @@
+1. Explique com suas palavras a diferença entre uma classe e um objeto e como
+esses dois conceitos se relacionam. Além disso, apresente um exemplo do mundo
+real para cada um (por exemplo, usando a classe Carro e instâncias como Fusca e
+Civic).
 
+Resposta: Classe é um modelo de algo que queremos representar, é nela que vamos definir
+quais serão as característica (atributos) e os comportamentos (métodos) de algo que
+queremos representar computacionalmente. Classe é apenas uma ideia, ficando então no sentido
+abstrato. Já o objeto é aquilo que criamos a partir da ideia de uma classe, é quando os atributos
+são preenchidos, quando o modelo criado na classe pode ser implementado, então objeto é a concretização
+de algo que primeiramente era apenas uma ideia / modelo.
+Esses dois conceitos se relacionam no sentido de que objeto é algo instanciado, ou seja, criado
+a partir de uma classe. Sem classe, um objeto não pode ser criado, visto que não tem um modelo para
+o mesmo seguir e classe sem objeto é apenas uma ideia ou modelo, sem nenhuma implementação.
+
+ex: Representar uma conta bancária
+
+Primeiro criar uma classe para a entidade conta bancária
+
+Atributos:
+- Titular
+- Saldo
+
+Métodos:
+- Depositar
+- Sacar 
+- Exibir saldo
+
+Uma classe foi criada, ou seja, o modelo que um objeto irá seguir.
+
+A partir desse modelo, objetos poderão ser criados.
+
+Criar um objeto para essa classe:
+
+Nos atributos vamos preencher o Titular que pode ser o nome, ou ainda o CPF de uma pessoa e o saldo inicial dessa conta.
+
+Com isso podemos fazer várias ações nesse objeto como: Exibir o saldo dessa conta, depositar e sacar (se tiver saldo suficiente).
