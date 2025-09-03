@@ -1,0 +1,39 @@
+5. Identifique pelo menos 5 objetos de um sistema de controle acadêmico. Ex: aluno.
+Professor, disciplina, turma, coordenador, sala.
+
+Resposta:
+
+Curso
+
+Atributos: nome, código, duração, disciplinas (vetor de objetos do tipo Disciplina)
+Métodos: adicionar disciplina, remover disciplina, listar disciplina, aumentar duração,
+diminuir duração.
+
+
+
+Histórico escolar
+
+Atributos: aluno, curso, média geral, situação final, registros (vetor de Registro Escolar)
+Métodos: calcular média geral, verificar situação final, exibir histórico
+
+
+
+Matrícula
+
+Atributos: aluno, disciplina, turma, data matrícula, situação, notas (vetor).
+Métodos: Atualizar situação, adicionar nota, calcular média
+
+
+
+Plano de ensino
+
+Atributos: disciplina, professor, ementa, carga horária, bibliografia, cronograma de aulas
+Métodos: adicionar bibliografia, atualizar conograma, atualizar professor
+
+
+
+Sala de aula
+
+Atributos: código da sala, tipo, capacidade, recursos disponíveis, status.
+Métodos: reservar, liberar, atualizar recursos, verificar disponibilidade
+
