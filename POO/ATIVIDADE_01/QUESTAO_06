@@ -1,0 +1,38 @@
+Imagine um jogo qualquer. Identifique o máximo de objetos possíveis e eventuais
+características (atributos) e comportamentos (métodos) que eles poderiam ter.
+Jogo de vôlei. Atributos: duração, local, tipo, quantidade de jogadores, placar,
+time1, time2. Métodos: iniciar partida, pausar, adicionar jogador, remover jogador,
+finalizar partidas.
+
+Resposta: 
+
+                                         TÊNIS DE MESA
+
+Objetos:
+
+
+1.Jogador
+
+Atributos: id, nome, idade, ranking, pontuação.
+Métodos: sacar(), rebater(), marcarPonto(), vencerPartida().
+
+2.Bola
+
+Atributos: cor, material, peso.
+Métodos: rolar(), quicar(), girar().
+
+3.Raquete
+
+Atributos: peso, cor, material.
+Métodos: rebater().
+
+4.Partida
+
+Atributos: jogadores, placar, duração.
+Métodos: iniciar(), registrarPonto(), encerrar().
+
+5. Mesa
+
+Atributos: cor, dimensões, rede, material.
+Métodos: montar(), desmontar().
+
