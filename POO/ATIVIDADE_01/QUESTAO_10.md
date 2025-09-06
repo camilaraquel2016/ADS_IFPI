@@ -3,7 +3,13 @@ uma ferramenta como draw.io ou PlantUML.
 
 Classe Círculo:
 
+
 https://github.com/camilaraquel2016/ADS_IFPI/blob/main/POO/ATIVIDADE_01/circulo.drawio.png
 
+
+
 Classe Situação financeira:
+
+
+https://github.com/camilaraquel2016/ADS_IFPI/blob/main/POO/ATIVIDADE_01/situacaoFinanceira.drawio.png
 
