@@ -1,1 +1,23 @@
+1. Qual a diferença entre tipagem dinâmica e tipagem estática?
 
+Resposta:
+
+A tipagem estática como o próprio nome sugere, diz respeito ao fato de uma
+vez declarado o tipo de uma variável, o mesmo não muda, permanece estático. 
+Uma variável que foi declara com o tipo Number, só irá suportar receber valores
+desse mesmo tipo.
+Na tipagem estática o tipo é associado a variável em si, logo, ao atribuir
+um valor com um tipo diferente do que a variável foi destinada a armazenar
+ocasionará um erro, um alerta, ainda em tempo de compilação.
+
+Fazendo um paralelo a tipagem dinâmica, diz respeito ao fato de uma variável
+suportar todos os tipos possíveis, hora ela armazena uma string, hora armazena
+um number, pois sua tipagem é dinâmica, muda de acordo com o valor que lhe é passado.
+Na tipagem dinâmica o tipo é associado não mais a varíavel como na tipagem
+estática, mas sim ao valor que ela está armazenando naquele momento, por isso
+não dá problema atribuir inicialemente um valor com um tipo e depois atualizar
+para outro valor de outro tipo diferente, porque o mesmo está associado ao valor e não 
+a variável.
+
+Então a diferença básica é que o tipo de dado na estática está ligado a variável, já 
+na dinâmica ele está ligado ao valor armazenado atualmente.
