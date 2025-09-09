@@ -15,3 +15,5 @@ quando o programador tenta executar essa soma.
 OBS: Caso o programador ignore os avisos de erros, ele ainda pode ser executado
 e ter como resultado a saída: 3, mas isso não é mais o TS em si e sim um JS que foi gerado
 a partir do código escrito em TS.
+
+*/
