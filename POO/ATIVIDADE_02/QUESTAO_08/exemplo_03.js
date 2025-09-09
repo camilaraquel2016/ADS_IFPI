@@ -18,7 +18,6 @@ null == undefined
 
 JS trata como null e undefined sendo iguais quando usando o operador ==
 
-
 OBS:
 
 O operador == não compara tipo e sim os valores em si.
