@@ -26,3 +26,6 @@ O operador == não compara tipo e sim os valores em si.
 Para comparar tipos e valores ao mesmo tempo devemos usar === (igualdade estrita)
 Nesse caso de usar === todas as saídas seriam false, pois todas as comparações
 são com tipos diferentes, embora os valores quando convertidos sejam iguais.
+
+*/
+
