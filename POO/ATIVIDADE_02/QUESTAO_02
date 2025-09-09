@@ -21,7 +21,7 @@ print(soma(x, y))
 
 Só vai da erro quando o programa rodar.
 
-Se estivéssemos usando uma tipagem estática, poderíamos especificar que a função
+Se estivéssemos usando uma tipagem estática e restritiva com TS, poderíamos especificar que a função
 soma deve receber dois parâmetros do tipo number, visto que estamos querendo somar dois 
 números e assim ao passar y como parâmetro da função, a linguagem que faz uso da tipagem estática
 já alertaria, em tempo de compilação, que estamos passando um tipo diferente do esperado como parâmetro.
