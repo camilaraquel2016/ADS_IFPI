@@ -7,9 +7,9 @@ my preffered language is ${linguagem}`);
 
 
 function main(): void {
-    let nome: string = "Ely";
-    let salario: number = 2000;
-    let linguagem: string = "TypeScript";
+    const nome: string = "Ely";
+    const salario: number = 2000;
+    const linguagem: string = "TypeScript";
 
     exibirFrase(nome, salario, linguagem);
 }
