@@ -8,12 +8,13 @@ class Pessoa {
     }
 
     apresentar(){
-        console.log(`Meu nome é ${this.nome} e tenho ${this.idade} anos.`);
+        return `Meu nome é ${this.nome} e tenho ${this.idade} anos.`;
     }
 }
 
 
 let pessoa1 = new Pessoa("Camila", 19);
 
-pessoa1.apresentar();
+console.log(pessoa1.apresentar());
+
 
