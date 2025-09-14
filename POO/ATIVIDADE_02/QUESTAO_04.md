@@ -14,7 +14,7 @@ console.log(idade)
 Usando TypeScript, ao atribuir uma string a uma variável do tipo number o compilador 
 alerta antes de rodar o programa.
 
-Além de avisar sobre o erro enquanto você digita ou compila, O compilador TS exibirá
+Além de avisar sobre o erro enquanto você digita ou compila, o compilador TS exibirá
 a mensagem:
 
 Type 'string' is not assignable to type 'number'.
