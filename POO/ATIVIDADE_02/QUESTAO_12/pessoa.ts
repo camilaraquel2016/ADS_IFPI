@@ -7,7 +7,7 @@ class Pessoa {
         this.idade = idade;
     }
 
-    apresentar(){
+    apresentar(): string{
         return `Meu nome é ${this.nome} e tenho ${this.idade} anos.`;
     }
 }
