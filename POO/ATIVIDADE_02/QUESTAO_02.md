@@ -13,13 +13,15 @@ falhar quando o programa estiver rodando.
 
 Exemplo: usando python, uma linguagem que faz uso da tipagem dinâmica.
 
+```python
 def soma(a, b):
   return a + b
 
 x = 10
 y = "5"
 
-print(soma(x, y)) 
+print(soma(x, y))
+```
 
 Só vai da erro quando o programa rodar.
 
