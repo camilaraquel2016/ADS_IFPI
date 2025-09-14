@@ -1,7 +1,9 @@
 3. Pesquise um exemplo na internet em que a tipagem dinâmica pode ser problemática.
 
+Resposta:
+
 Para demonstrar uma problemática do uso da tipagem dinâmica é necessário
-fazer uso de linguagens dinamicamnete tipadas, como: Python e JavaScript.
+fazer uso de linguagens dinamicamente tipadas, como: Python e JavaScript.
 Os erros de tipos em ambas as linguagens só aparecerão em tempo de execução, 
 mas dependendo do código criado, cada uma terá um reação diferente quanto ao erro.
 
@@ -9,13 +11,15 @@ Cenário: fazer soma de dois números
 
 Python:
 
+```python
 def somar(a, b):
-  return a + b
+    return a + b
 
 x = 10
 y = "5"
 
 print(somar(x, y))
+```
 
 Ao executar o programa o usuário receberá um erro do tipo
 
@@ -26,7 +30,7 @@ logo ele gera um erro, mas em tempo de execução.
 
 
 JavaScript:
-
+```JavaScript
 function somar(a, b) {
    return a + b; 
 }
@@ -35,10 +39,11 @@ let x = 10;
 let y = "5";
 
 console.log(somar(x, y));
+```
 
 Ao executar o programa não dará um erro em si, ele irá fazer a concatenação
 de string.
-De certa forma acaba sendo um problemática, pois a usar função soma, o usuário
+De certa forma acaba sendo um problemática, pois ao usar função soma, o usuário
 espera que a mesma some numericamente os parâmetros que lhe foi passado e não que 
 faça uma concatenação.
 Isso acaba sendo um comportamenteo inesperado ao usuário e pode causar bugs, as vezes
