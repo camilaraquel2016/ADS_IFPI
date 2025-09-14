@@ -1,4 +1,3 @@
-/*
 A configuração target define para qual versão do JavaScript o código TypeScript
 será transpilado 
 
@@ -15,8 +14,8 @@ prototype e transforma algumas funcionalidades modernas em código compatível c
 
 CÓDIGO-FONTE (pessoa.ts)
 
-*/
 
+```TypeScript
 class Pessoa {
     nome: string;
     idade: number;
@@ -36,12 +35,10 @@ let pessoa1 = new Pessoa("Camila", 19);
 
 console.log(pessoa1.apresentar());
 
-
-/*
-
+```
 CÓDIGO TRANSPILADO PARA JS VERSÃO ATUAL
-*/
 
+```TypeScript
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 class Pessoa {
@@ -58,13 +55,10 @@ class Pessoa {
 let pessoa1 = new Pessoa("Camila", 19);
 console.log(pessoa1.apresentar());
 //# sourceMappingURL=pessoa.js.map
-
-/*
-
+```
 CÓDIGO TRANSPILADO PARA JS VERSÃO ES5
 
-*/
-
+```TypeScript
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var Pessoa = /** @class */ (function () {
@@ -80,5 +74,4 @@ var Pessoa = /** @class */ (function () {
 var pessoa1 = new Pessoa("Camila", 19);
 console.log(pessoa1.apresentar());
 //# sourceMappingURL=pessoa.js.map
-
-
+```
