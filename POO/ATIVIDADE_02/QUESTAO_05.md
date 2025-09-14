@@ -1,13 +1,12 @@
-/*
 5. Agora crie a variável nome sem declarar o tipo (apenas let nome = "Ely";). Qual o
 tipo inferido pelo TypeScript?
-*/
 
+```TypeScript
 let nome = "Ely";
 
 console.log(typeof nome);
+```
 
-/*
 O TypeScript inferiu que o tipo da variável é string, mesmo sem termos
 declarado explicitamente. Isso acontece graças ao recurso chamado type 
 inference (inferência de tipo). Ou seja, ao inicializar uma variável sem informar
