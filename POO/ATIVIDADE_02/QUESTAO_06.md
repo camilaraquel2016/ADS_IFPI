@@ -1,4 +1,3 @@
-/*
 6. Pesquise e exemplifique porque dizemos que a linguagem C, mesmo tendo
 tipagem estática, possui tipagem fraca.
 
@@ -11,9 +10,9 @@ Isso pode resultar em comportamentos inesperados.
 Mesmo com a verificação de tipos em tempo de compilação, a linguagem permite 
 comportamentos que podem levar a erros e tempo de execução.
 
-Exemplos de conversões que a linguagem C faz que a caracteriza como tendo tipagem fraca
-*/
+Exemplo de conversões que a linguagem C faz que a caracteriza como tendo tipagem fraca
 
+```c
 #include <stdio.h>
 
 int main(){
@@ -25,12 +24,11 @@ int main(){
 	printf("%d", a);
 
 }
+```
 
-/*
 Imprime 6
 
 Nesse exemplo declaramos (a) sendo um inteiro, mas depois atribuimos um float a essa
 variável. O compilador então converte esse número real para 6, sem erro e sem avisar 
 ao programador.
 
-*/
