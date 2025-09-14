@@ -1,4 +1,4 @@
-/* 
+
 20. Configure seu projeto para que seja possível realizar depuração alterando o
 atributo sourceMap.
 https://www.youtube.com/watch?v=4oQutHz96is
@@ -16,13 +16,11 @@ ou semânticos.
 
 
 EXEMPLO DE UMA PEQUENA DEPURAÇÃO:
-*/
-
+```TypeScript
 function soma(a: number, b: number): number {
     return a - b; 
 }
-
-/*
+```
 A função apresenta um erro semântico em vez de somar ela subtrai.
 Poderíamos aplicar um breakpoint na linha do return a - b.
 Quando for executada a depuração, o código para nesse breakpoint e podemos observar
