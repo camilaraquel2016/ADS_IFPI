@@ -23,7 +23,7 @@ Mesmo assim, o programador pode ignorar o erro e transpilar para JavaScript.
 Ao rodar o arquivo JS gerado, ele irá imprimir normalmente "Camila".
 
 
-Isso mostra que TypeScript cumpriu seu paapel de linguagem estátca: avisar e proteger
+Isso mostra que TypeScript cumpriu seu papel de linguagem estátca: avisar e proteger
 em tempo de compilação. Mas, ao ser "transpilado" para JS, o código ainda roda normalmente,
 pois ele é na verdade um JavaScript, logo não possui checagem de tipos.
 
