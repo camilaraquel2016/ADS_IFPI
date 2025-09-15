@@ -5,7 +5,7 @@ Resposta:
 A tipagem estática como o próprio nome sugere, diz respeito ao fato de uma
 vez declarado o tipo de uma variável, o mesmo não muda, permanece estático.
 
-Na tipagem estática o tipo da variável é conhecido em tempo de programa, 
+Na tipagem estática o tipo da variável é conhecido em tempo de projeto/ escrita do código, 
 logo o compilador impede atribuições imcompatíveis e faz um alerta ao
 programador antes do código ser executado.
 
@@ -20,7 +20,7 @@ se as operações fazem sentido. Por isso, você só vai ter erro se tentar faze
 algo que não combina com o tipo atual, como somar uma string com um número.
 
 Logo, a diferença básica é que devido a tipagem estática conhecer o tipo da
-variável em tempo de compilação ela acaba fazendo essas verificações e impedindo
+variável em tempo de projeto ela acaba fazendo essas verificações e impedindo
 que sejam feitas atribuições incompatíveis, enquanto que na dinâmica o interpretador
 só sabe seu tipo em tempo de execução, logo dizer que x é number e depois atribuir a ele 
 uma string, não dará problemas, visto que o tipo de x será "esquecido", pois a tipagem
