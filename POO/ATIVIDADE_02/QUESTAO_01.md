@@ -5,7 +5,7 @@ Resposta:
 A tipagem estática como o próprio nome sugere, diz respeito ao fato de uma
 vez declarado o tipo de uma variável, o mesmo não muda, permanece estático.
 
-Na tipagem estática o tipo da variável é conhecido em tempo de compilação, 
+Na tipagem estática o tipo da variável é conhecido em tempo de programa, 
 logo o compilador impede atribuições imcompatíveis e faz um alerta ao
 programador antes do código ser executado.
 
