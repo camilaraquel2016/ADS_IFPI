@@ -1,8 +1,7 @@
-/*
 16. Alterne a opção allowUnreachableCode com os valores true/false, teste o código
 abaixo e descreva o que acontece:
-*/
 
+```TypeScript
 function main(){
     let x: number = 10;
     console.log("Início do programa");
@@ -18,8 +17,8 @@ function main(){
 }
 
 main()
+```
 
-/*
 Quando x for maior que 5 a linha 11 é executada e logo depois o programa
 encerra na linha 13 devido a return, mas quando ele é menor ou igual a 5 ele não entra no bloco
 de código do if e imprime o que vier depois, no caso a linha 17. Nesse sentido, a linha 15 nunca será executada,
