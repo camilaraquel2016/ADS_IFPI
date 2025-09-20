@@ -15,8 +15,8 @@ tipo de dado basta substituir. */
 typedef struct pilha {
 	int max; 
 	int topo;
-	Itemp *item; // um ponteiro que armazena o endereço de memória do primeiro elemento
-	//do vetor de itens que a pilha armazenará. */
+	Itemp *item; /* um ponteiro que armazena o endereço de memória do primeiro elemento
+	do vetor de itens que a pilha armazenará. */
 	
 } *Pilha; 
 
