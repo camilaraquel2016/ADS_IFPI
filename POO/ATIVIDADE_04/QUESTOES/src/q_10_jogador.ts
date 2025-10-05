@@ -48,3 +48,23 @@ class Jogador {
         }
     }
 }
+
+function main(): void {
+
+    let camila: Jogador = new Jogador(30, 2, 90);
+    let maria: Jogador = new Jogador(50, 4, 70);
+
+    camila.atacar(maria);
+
+    console.log(maria.getPontos());
+
+    console.log(maria.estaVivo());
+
+    camila.atacar(maria);
+
+    console.log(maria.estaVivo());
+
+
+}
+
+main();

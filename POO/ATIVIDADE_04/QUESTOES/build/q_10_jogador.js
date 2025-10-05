@@ -40,4 +40,14 @@ class Jogador {
         }
     }
 }
+function main() {
+    let camila = new Jogador(30, 2, 90);
+    let maria = new Jogador(50, 4, 70);
+    camila.atacar(maria);
+    console.log(maria.getPontos());
+    console.log(maria.estaVivo());
+    camila.atacar(maria);
+    console.log(maria.estaVivo());
+}
+main();
 //# sourceMappingURL=q_10_jogador.js.map
