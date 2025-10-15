@@ -27,11 +27,11 @@ class Conta {
     }
 
     sacar(valor: number): boolean {
-        if (this.getSaldo() - valor < 0) return false;
+        if (this.getSaldo() < valor) return false;
         this.saldo -= valor; 
         return true;
     }
-
+ 
     depositar(valor: number): void {
         this.saldo += valor;
     }

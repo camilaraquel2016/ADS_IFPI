@@ -18,8 +18,10 @@ class Equipamento {
     }
 
     inverter(): void {
-        if (this.estaLigado()) this.desligar();
-        this.ligar();
+        if (this.ligado) this.desligar();
+        else {
+            this.ligar();
+        }
     }
 }
 
